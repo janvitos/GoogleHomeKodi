@@ -249,7 +249,7 @@ app.all('/playartist', exec(Helper.kodiPlayArtist));
 
 app.all('/playgenre', exec(Helper.kodiPlayMusicByGenre));
 
-app.all('/showGenre', exec(Helper.kodiShowGenre));
+app.all('/showMovieGenre', exec(Helper.kodiShowMovieGenre));
 
 app.all('/togglePartymode', exec(Helper.kodiTogglePartymode));
 
